@@ -5,3 +5,12 @@ services:
     ports:
       - "8000:80"
     restart: unless-stopped
+  development:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile-dev
+    user: "$USER_ID:$GROUP_ID"
+    ports:
+      - "4200:4200"
+    volumes:
+      - "./:/app"
