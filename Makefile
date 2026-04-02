@@ -8,4 +8,4 @@ logs:
 	docker compose logs
 
 stop:
-	docker compose stop
+	docker compose down
