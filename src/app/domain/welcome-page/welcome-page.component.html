@@ -1,1 +1,75 @@
-<p>welcome works!</p>
+<div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <!-- Main Content -->
+    <div class="text-center mb-12">
+      <!-- Logo/Title -->
+      <div class="mb-8">
+        <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-3">
+          <span class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            Fakeponse
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600">Mock API Responses Made Easy</p>
+      </div>
+
+      <!-- Description -->
+      <div class="grid md:grid-cols-3 gap-6 mb-12">
+        <!-- Feature 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
+          <div class="text-4xl mb-4">⚡</div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Create Endpoints</h3>
+          <p class="text-gray-600">
+            Build and manage mock API endpoints without complex setup or infrastructure
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
+          <div class="text-4xl mb-4">📡</div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Simulate Responses</h3>
+          <p class="text-gray-600">
+            Define custom responses and test how your application handles different scenarios
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
+          <div class="text-4xl mb-4">🚀</div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Speed Up Development</h3>
+          <p class="text-gray-600">
+            Develop and test your frontend independently without waiting for backend APIs
+          </p>
+        </div>
+      </div>
+
+      <!-- Purpose Section -->
+      <div class="bg-white rounded-lg shadow-lg p-8 mb-12 text-left">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">What is Fakeponse?</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Fakeponse is a powerful tool designed for software developers who need to test and develop their applications
+          independently from backend services. Whether you're building a frontend application, integrating third-party
+          APIs, or testing edge cases, Fakeponse lets you create realistic mock endpoints in seconds.
+        </p>
+        <p class="text-gray-700 leading-relaxed">
+          Perfect for development, testing, and demonstration purposes, Fakeponse eliminates the friction of API
+          dependency and accelerates your development workflow. Create unlimited mock endpoints, simulate various
+          response scenarios, and test with confidence.
+        </p>
+      </div>
+
+      <!-- CTA Button -->
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button
+          (click)="onGetStarted()"
+          class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transform transition hover:scale-105 text-lg">
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="text-center text-gray-600 text-sm mt-12">
+      <p>Built by developers, for developers</p>
+    </div>
+  </div>
+</div>
